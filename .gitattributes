@@ -1,9 +1,12 @@
 # GitHub Linguist configuration
-# Excludes non-code files from language statistics.
-# Result: Python (dominant) + Jupyter Notebook + HTML
+# radar_chart.html is a 4.7 MB Plotly-generated output file, not source code.
+# Vendoring it lets Python dominate correctly.
 
-*.md            linguist-documentation=true
-docs/*.md       linguist-documentation=true
-configs/*.yaml  linguist-documentation=true
-*.txt           linguist-documentation=true
-*.env.example   linguist-documentation=true
+# Generated output — exclude from language stats
+results/**/*.html   linguist-vendored=true
+
+# Non-source files — exclude from language stats
+*.md                linguist-documentation=true
+docs/*.md           linguist-documentation=true
+configs/*.yaml      linguist-documentation=true
+*.txt               linguist-documentation=true
