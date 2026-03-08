@@ -1,16 +1,9 @@
-# ---------------------------------------------------------------
-# GitHub Linguist overrides
-# Goal: show Python as dominant language, with Jupyter Notebook
-# and a small HTML slice. Generated output HTML is excluded.
-# ---------------------------------------------------------------
+# GitHub Linguist configuration
+# Excludes non-code files from language statistics.
+# Result: Python (dominant) + Jupyter Notebook + HTML
 
-# Generated HTML (Plotly output, not source code) — exclude from stats
-results/**/*.html   linguist-vendored=true
-
-# Jupyter notebooks — show as "Jupyter Notebook" in language bar
-*.ipynb             linguist-detectable=true
-*.ipynb             linguist-language=Jupyter Notebook
-
-# Markdown and YAML are docs, not source — exclude from stats
-*.md                linguist-documentation=true
-configs/*.yaml      linguist-documentation=true
+*.md            linguist-documentation=true
+docs/*.md       linguist-documentation=true
+configs/*.yaml  linguist-documentation=true
+*.txt           linguist-documentation=true
+*.env.example   linguist-documentation=true
