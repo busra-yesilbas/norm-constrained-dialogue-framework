@@ -1,0 +1,2851 @@
+[
+  {
+    "case_id": "11d2d221",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "cooperative",
+    "context_summary": "A report has been filed regarding a concerning incident in the logistics department on Tuesday morning. The respondent was present and is described as a field representative.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228450Z"
+  },
+  {
+    "case_id": "b807b5ff",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "confused",
+    "context_summary": "Following a sensitive incident at reception, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228501Z"
+  },
+  {
+    "case_id": "c2e5aa8c",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "resistant",
+    "context_summary": "Following a sensitive incident at operations, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Identify what was directly observed versus inferred",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "memory_suggestibility"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228532Z"
+  },
+  {
+    "case_id": "5b421868",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "cooperative",
+    "context_summary": "The respondent submitted a formal complaint about the licensing service received during a appointment. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.228559Z"
+  },
+  {
+    "case_id": "921ae7b1",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent is a junior analyst who was present during a concerning event at the records. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Avoid suggestive or leading language",
+      "Clarify the sequence and timing of events",
+      "Identify what was directly observed versus inferred"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228590Z"
+  },
+  {
+    "case_id": "0157f63a",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent submitted a formal complaint about the community health service received during a renewal. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Identify desired resolution",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "past_negative_experience",
+      "systemic_distrust"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.228619Z"
+  },
+  {
+    "case_id": "e2e458d1",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "confused",
+    "context_summary": "A compliance audit has flagged a potential process deviation in the records team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess procedural knowledge",
+      "Verify the respondent's understanding of relevant procedures",
+      "Identify any deviations and the rationale behind them"
+    ],
+    "risk_flags": [
+      "self_incrimination_concern",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.228644Z"
+  },
+  {
+    "case_id": "23783bcd",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "anxious",
+    "context_summary": "Following a documented incident at field, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Clarify the sequence and timing of events",
+      "Elicit a free, uncontaminated account"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228668Z"
+  },
+  {
+    "case_id": "f275c503",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "anxious",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested case management support. The respondent reports difficulty managing ongoing responsibilities as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Build rapport and establish trust",
+      "Identify any immediate support needs",
+      "Assess current level of functioning"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228692Z"
+  },
+  {
+    "case_id": "5bbda47a",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent submitted a formal complaint about the housing service received during a appointment. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Identify desired resolution",
+      "Document the nature and impact of the complaint"
+    ],
+    "risk_flags": [
+      "systemic_distrust",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.228715Z"
+  },
+  {
+    "case_id": "8486d714",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "A report has been filed regarding a documented incident in the reception department on Tuesday morning. The respondent was present and is described as a case officer.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify all persons present",
+      "Clarify any actions taken at the time",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228739Z"
+  },
+  {
+    "case_id": "8b765bfb",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "Following a disputed workplace event involving two team members, a review conversation is being conducted with a field representative who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228765Z"
+  },
+  {
+    "case_id": "0fbf124a",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "confused",
+    "context_summary": "The respondent submitted a formal complaint about the housing service received during a assessment. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Gather any supporting details",
+      "Clarify what the respondent experienced",
+      "Identify desired resolution"
+    ],
+    "risk_flags": [
+      "systemic_distrust",
+      "emotional_distress"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.228791Z"
+  },
+  {
+    "case_id": "867602d6",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "A report has been filed regarding a disputed incident in the reception department on the third of last month. The respondent was present and is described as a junior analyst.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228815Z"
+  },
+  {
+    "case_id": "42e73db9",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "cooperative",
+    "context_summary": "The respondent is a team coordinator who submitted an internal report about a documented situation occurring near the administration area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228838Z"
+  },
+  {
+    "case_id": "3cddf4a9",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "cooperative",
+    "context_summary": "Following a ambiguous incident at logistics, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228861Z"
+  },
+  {
+    "case_id": "40aa51f2",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "resistant",
+    "context_summary": "Following a unexpected incident at logistics, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Avoid suggestive or leading language",
+      "Elicit a free, uncontaminated account"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228888Z"
+  },
+  {
+    "case_id": "99743b34",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "cooperative",
+    "context_summary": "Following a ambiguous workplace event involving four team members, a review conversation is being conducted with a field representative who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations",
+      "Identify all persons present"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228911Z"
+  },
+  {
+    "case_id": "3a0274a5",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent is a case officer who submitted an internal report about a ambiguous situation occurring near the logistics area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Clarify any actions taken at the time",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228933Z"
+  },
+  {
+    "case_id": "696ad5d8",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "A report has been filed regarding a ambiguous incident in the logistics department on last Friday. The respondent was present and is described as a field representative.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.228960Z"
+  },
+  {
+    "case_id": "365d527a",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "confused",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated recent significant disruption and may require case management services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Understand the presenting concern",
+      "Build rapport and establish trust"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.228983Z"
+  },
+  {
+    "case_id": "e06442e1",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "resistant",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated difficulty managing ongoing responsibilities and may require financial counselling services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Understand the presenting concern",
+      "Identify any immediate support needs",
+      "Assess current level of functioning"
+    ],
+    "risk_flags": [
+      "emotional_fragility",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229006Z"
+  },
+  {
+    "case_id": "eb385955",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "confused",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated difficulty managing ongoing responsibilities and may require employment services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Understand the presenting concern",
+      "Build rapport and establish trust",
+      "Assess current level of functioning"
+    ],
+    "risk_flags": [
+      "emotional_fragility",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229032Z"
+  },
+  {
+    "case_id": "49f6c317",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a junior analyst who submitted an internal report about a ambiguous situation occurring near the field area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229054Z"
+  },
+  {
+    "case_id": "40278aa9",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "fatigued",
+    "context_summary": "A data handling audit has flagged a potential process deviation in the logistics team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify any deviations and the rationale behind them",
+      "Document explanations accurately",
+      "Verify the respondent's understanding of relevant procedures"
+    ],
+    "risk_flags": [
+      "authority_anxiety",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229077Z"
+  },
+  {
+    "case_id": "886cf828",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "A report has been filed regarding a documented incident in the logistics department on last Friday. The respondent was present and is described as a team coordinator.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Understand the respondent's direct observations",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229099Z"
+  },
+  {
+    "case_id": "eadadd84",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "anxious",
+    "context_summary": "A citizen has contacted the housing office to report a documented experience with a recent assessment. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Gather any supporting details",
+      "Identify desired resolution",
+      "Clarify what the respondent experienced"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229124Z"
+  },
+  {
+    "case_id": "b6437514",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "confused",
+    "context_summary": "Following a disputed incident at reception, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229149Z"
+  },
+  {
+    "case_id": "7438902e",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "cooperative",
+    "context_summary": "The respondent is a field representative who was present during a concerning event at the storage. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Avoid suggestive or leading language",
+      "Elicit a free, uncontaminated account",
+      "Identify what was directly observed versus inferred"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229171Z"
+  },
+  {
+    "case_id": "d06ce27e",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "Following a disputed incident at operations, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify the sequence and timing of events",
+      "Avoid suggestive or leading language",
+      "Identify what was directly observed versus inferred"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "memory_suggestibility"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229197Z"
+  },
+  {
+    "case_id": "cda9d2ba",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "resistant",
+    "context_summary": "As part of a routine compliance review, a structured conversation is being held with a case officer in the storage unit. The aim is to verify understanding of relevant procedures.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify any deviations and the rationale behind them",
+      "Assess procedural knowledge",
+      "Verify the respondent's understanding of relevant procedures"
+    ],
+    "risk_flags": [
+      "self_incrimination_concern",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229220Z"
+  },
+  {
+    "case_id": "7e5d63e2",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "resistant",
+    "context_summary": "A data handling audit has flagged a potential process deviation in the reception team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Document explanations accurately",
+      "Verify the respondent's understanding of relevant procedures",
+      "Assess procedural knowledge"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "self_incrimination_concern"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229243Z"
+  },
+  {
+    "case_id": "5281af15",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "A report has been filed regarding a sensitive incident in the logistics department on last Friday. The respondent was present and is described as a support worker.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229268Z"
+  },
+  {
+    "case_id": "b61c418c",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "fatigued",
+    "context_summary": "Following a sensitive workplace event involving three team members, a review conversation is being conducted with a senior technician who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Identify all persons present",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229291Z"
+  },
+  {
+    "case_id": "1b5285fe",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "fatigued",
+    "context_summary": "A report has been filed regarding a documented incident in the storage department on the third of last month. The respondent was present and is described as a team coordinator.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Identify all persons present",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229313Z"
+  },
+  {
+    "case_id": "645229e7",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "anxious",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated uncertainty about next steps and may require crisis services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Identify any immediate support needs",
+      "Build rapport and establish trust"
+    ],
+    "risk_flags": [
+      "emotional_fragility",
+      "disclosure_hesitancy"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229340Z"
+  },
+  {
+    "case_id": "240a8c49",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a support worker who was present during a sensitive event at the logistics. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Avoid suggestive or leading language",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229363Z"
+  },
+  {
+    "case_id": "657f67f6",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent submitted a formal complaint about the licensing service received during a renewal. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Document the nature and impact of the complaint",
+      "Identify desired resolution",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "systemic_distrust"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229385Z"
+  },
+  {
+    "case_id": "f2b6d767",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a junior analyst who was present during a concerning event at the field. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Elicit a free, uncontaminated account",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "memory_suggestibility"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229409Z"
+  },
+  {
+    "case_id": "26a27ea1",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "fatigued",
+    "context_summary": "The respondent is a team coordinator who submitted an internal report about a concerning situation occurring near the field area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229430Z"
+  },
+  {
+    "case_id": "55f40f80",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "confused",
+    "context_summary": "A report has been filed regarding a sensitive incident in the field department on Tuesday morning. The respondent was present and is described as a support worker.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Understand the respondent's direct observations",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229452Z"
+  },
+  {
+    "case_id": "ce4eb793",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "fatigued",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated stress related to a recent life change and may require financial counselling services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Build rapport and establish trust",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "trauma_history"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229475Z"
+  },
+  {
+    "case_id": "5494af27",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "confused",
+    "context_summary": "A safety audit has flagged a potential process deviation in the logistics team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess procedural knowledge",
+      "Verify the respondent's understanding of relevant procedures",
+      "Document explanations accurately"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "self_incrimination_concern"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229500Z"
+  },
+  {
+    "case_id": "752a120e",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "anxious",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested crisis support. The respondent reports uncertainty about next steps as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify any immediate support needs",
+      "Assess current level of functioning",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "trauma_history",
+      "disclosure_hesitancy"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229530Z"
+  },
+  {
+    "case_id": "5dd4cbf2",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "fatigued",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested employment support. The respondent reports stress related to a recent life change as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Identify any immediate support needs",
+      "Assess current level of functioning",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "stigma_concern",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229553Z"
+  },
+  {
+    "case_id": "609ebba1",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "cooperative",
+    "context_summary": "A safety audit has flagged a potential process deviation in the reception team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Verify the respondent's understanding of relevant procedures",
+      "Identify any deviations and the rationale behind them",
+      "Assess procedural knowledge"
+    ],
+    "risk_flags": [
+      "authority_anxiety",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229575Z"
+  },
+  {
+    "case_id": "753ac921",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "cooperative",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested employment support. The respondent reports uncertainty about next steps as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Identify any immediate support needs",
+      "Understand the presenting concern",
+      "Build rapport and establish trust"
+    ],
+    "risk_flags": [
+      "emotional_fragility",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229597Z"
+  },
+  {
+    "case_id": "b5d6de84",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent submitted a formal complaint about the licensing service received during a assessment. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "systemic_distrust",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229622Z"
+  },
+  {
+    "case_id": "e7665c8f",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "A quality assurance audit has flagged a potential process deviation in the records team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Verify the respondent's understanding of relevant procedures",
+      "Identify any deviations and the rationale behind them",
+      "Document explanations accurately"
+    ],
+    "risk_flags": [
+      "authority_anxiety",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229649Z"
+  },
+  {
+    "case_id": "26aa4f66",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent is a support worker who submitted an internal report about a sensitive situation occurring near the field area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Identify all persons present",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229671Z"
+  },
+  {
+    "case_id": "5a7eeb6d",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "confused",
+    "context_summary": "Following a unexpected incident at reception, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "trauma_proximity",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229698Z"
+  },
+  {
+    "case_id": "c137fb04",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "Following a documented workplace event involving several team members, a review conversation is being conducted with a team coordinator who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Identify all persons present",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229720Z"
+  },
+  {
+    "case_id": "45f56d7a",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "cooperative",
+    "context_summary": "Following a concerning incident at field, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events",
+      "Avoid suggestive or leading language"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229744Z"
+  },
+  {
+    "case_id": "5ccbe051",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "confused",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested wellbeing support. The respondent reports challenges with daily functioning as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify any immediate support needs",
+      "Build rapport and establish trust",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229766Z"
+  },
+  {
+    "case_id": "c6e05dca",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "confused",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested financial counselling support. The respondent reports challenges with daily functioning as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Build rapport and establish trust",
+      "Assess current level of functioning",
+      "Identify any immediate support needs"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229790Z"
+  },
+  {
+    "case_id": "97b58c5c",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "cooperative",
+    "context_summary": "A data handling audit has flagged a potential process deviation in the reception team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Assess procedural knowledge",
+      "Identify any deviations and the rationale behind them",
+      "Verify the respondent's understanding of relevant procedures"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.229813Z"
+  },
+  {
+    "case_id": "c6a2b316",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent submitted a formal complaint about the environmental service received during a application process. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229836Z"
+  },
+  {
+    "case_id": "40985611",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent submitted a formal complaint about the transport service received during a inspection. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "past_negative_experience",
+      "emotional_distress"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229864Z"
+  },
+  {
+    "case_id": "043178f0",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "confused",
+    "context_summary": "Following a sensitive workplace event involving four team members, a review conversation is being conducted with a junior analyst who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations",
+      "Identify all persons present"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229887Z"
+  },
+  {
+    "case_id": "25899f45",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a team coordinator who submitted an internal report about a ambiguous situation occurring near the field area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.229908Z"
+  },
+  {
+    "case_id": "df56a016",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested financial counselling support. The respondent reports difficulty managing ongoing responsibilities as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Identify any immediate support needs",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "emotional_fragility",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229931Z"
+  },
+  {
+    "case_id": "d46176ed",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "cooperative",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated stress related to a recent life change and may require wellbeing services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Build rapport and establish trust",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "trauma_history",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.229954Z"
+  },
+  {
+    "case_id": "6a658390",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "fatigued",
+    "context_summary": "A citizen has contacted the licensing office to report a ambiguous experience with a recent appointment. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Document the nature and impact of the complaint",
+      "Identify desired resolution",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "systemic_distrust",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.229978Z"
+  },
+  {
+    "case_id": "36a8cc1f",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "anxious",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested wellbeing support. The respondent reports recent significant disruption as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Understand the presenting concern",
+      "Assess current level of functioning",
+      "Identify any immediate support needs"
+    ],
+    "risk_flags": [
+      "trauma_history",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230000Z"
+  },
+  {
+    "case_id": "9a22286e",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent is a senior technician who was present during a unexpected event at the storage. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Avoid suggestive or leading language",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "trauma_proximity",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230023Z"
+  },
+  {
+    "case_id": "4a2dfe35",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "fatigued",
+    "context_summary": "A procurement audit has flagged a potential process deviation in the administration team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess procedural knowledge",
+      "Identify any deviations and the rationale behind them",
+      "Document explanations accurately"
+    ],
+    "risk_flags": [
+      "authority_anxiety",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230048Z"
+  },
+  {
+    "case_id": "1bb8a9fe",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "Following a complex workplace event involving several team members, a review conversation is being conducted with a support worker who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230070Z"
+  },
+  {
+    "case_id": "16c4ac46",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "confused",
+    "context_summary": "The respondent is a junior analyst who submitted an internal report about a documented situation occurring near the storage area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230096Z"
+  },
+  {
+    "case_id": "62aa2eda",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "Following a documented workplace event involving two team members, a review conversation is being conducted with a case officer who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Identify all persons present",
+      "Establish a clear timeline of events"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230119Z"
+  },
+  {
+    "case_id": "8a56d578",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a team coordinator who was present during a concerning event at the field. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Avoid suggestive or leading language",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "trauma_proximity",
+      "memory_suggestibility"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230141Z"
+  },
+  {
+    "case_id": "20d848ee",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent is a junior analyst who submitted an internal report about a unexpected situation occurring near the field area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230162Z"
+  },
+  {
+    "case_id": "9525a04b",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent is a support worker who submitted an internal report about a complex situation occurring near the reception area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify all persons present",
+      "Clarify any actions taken at the time",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230183Z"
+  },
+  {
+    "case_id": "6792689e",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "confused",
+    "context_summary": "A report has been filed regarding a concerning incident in the storage department on a recent shift. The respondent was present and is described as a field representative.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Establish a clear timeline of events",
+      "Identify all persons present"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230207Z"
+  },
+  {
+    "case_id": "d4f282ff",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "confused",
+    "context_summary": "Following a ambiguous incident at operations, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Avoid suggestive or leading language",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "trauma_proximity",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230230Z"
+  },
+  {
+    "case_id": "b869ae12",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "cooperative",
+    "context_summary": "Following a complex incident at reception, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Identify what was directly observed versus inferred",
+      "Clarify the sequence and timing of events",
+      "Elicit a free, uncontaminated account"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230256Z"
+  },
+  {
+    "case_id": "adce897c",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "resistant",
+    "context_summary": "A citizen has contacted the transport office to report a sensitive experience with a recent assessment. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Identify desired resolution",
+      "Document the nature and impact of the complaint",
+      "Clarify what the respondent experienced"
+    ],
+    "risk_flags": [
+      "systemic_distrust",
+      "emotional_distress"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230279Z"
+  },
+  {
+    "case_id": "3118585b",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "A compliance audit has flagged a potential process deviation in the operations team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Document explanations accurately",
+      "Verify the respondent's understanding of relevant procedures",
+      "Assess procedural knowledge"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230302Z"
+  },
+  {
+    "case_id": "43e580ca",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "fatigued",
+    "context_summary": "A compliance audit has flagged a potential process deviation in the administration team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Verify the respondent's understanding of relevant procedures",
+      "Document explanations accurately",
+      "Assess procedural knowledge"
+    ],
+    "risk_flags": [
+      "self_incrimination_concern",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230326Z"
+  },
+  {
+    "case_id": "7221f374",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "confused",
+    "context_summary": "A compliance audit has flagged a potential process deviation in the reception team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Verify the respondent's understanding of relevant procedures",
+      "Document explanations accurately",
+      "Identify any deviations and the rationale behind them"
+    ],
+    "risk_flags": [
+      "authority_anxiety",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230347Z"
+  },
+  {
+    "case_id": "3938d5c4",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent is a junior analyst who was present during a sensitive event at the field. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Avoid suggestive or leading language",
+      "Identify what was directly observed versus inferred",
+      "Clarify the sequence and timing of events"
+    ],
+    "risk_flags": [
+      "memory_suggestibility",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230373Z"
+  },
+  {
+    "case_id": "0045d87b",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "fatigued",
+    "context_summary": "As part of a routine quality assurance review, a structured conversation is being held with a support worker in the reception unit. The aim is to verify understanding of relevant procedures.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Document explanations accurately",
+      "Verify the respondent's understanding of relevant procedures",
+      "Assess procedural knowledge"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230395Z"
+  },
+  {
+    "case_id": "b3b51e72",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent is a support worker who was present during a concerning event at the logistics. This recall conversation aims to elicit an uncontaminated account of what was observed.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "critical",
+    "communication_goals": [
+      "Avoid suggestive or leading language",
+      "Elicit a free, uncontaminated account",
+      "Identify what was directly observed versus inferred"
+    ],
+    "risk_flags": [
+      "confabulation_risk",
+      "trauma_proximity"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230420Z"
+  },
+  {
+    "case_id": "b1c58bee",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "resistant",
+    "context_summary": "The respondent submitted a formal complaint about the benefits service received during a appointment. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Gather any supporting details",
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint"
+    ],
+    "risk_flags": [
+      "past_negative_experience",
+      "systemic_distrust"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230443Z"
+  },
+  {
+    "case_id": "c8c62349",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "cooperative",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated stress related to a recent life change and may require financial counselling services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Identify any immediate support needs",
+      "Build rapport and establish trust",
+      "Assess current level of functioning"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "stigma_concern"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230464Z"
+  },
+  {
+    "case_id": "9dbf6311",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "resistant",
+    "context_summary": "A report has been filed regarding a ambiguous incident in the operations department on earlier this week. The respondent was present and is described as a support worker.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "retaliation_fear"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230486Z"
+  },
+  {
+    "case_id": "3c8f5875",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "fatigued",
+    "context_summary": "A citizen has contacted the housing office to report a documented experience with a recent appointment. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Document the nature and impact of the complaint",
+      "Clarify what the respondent experienced",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "past_negative_experience",
+      "systemic_distrust"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230513Z"
+  },
+  {
+    "case_id": "a9ec3bee",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "resistant",
+    "context_summary": "A citizen has contacted the benefits office to report a sensitive experience with a recent application process. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Gather any supporting details",
+      "Clarify what the respondent experienced",
+      "Document the nature and impact of the complaint"
+    ],
+    "risk_flags": [
+      "past_negative_experience",
+      "emotional_distress"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230538Z"
+  },
+  {
+    "case_id": "8f68e26d",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "resistant",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated stress related to a recent life change and may require case management services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Assess current level of functioning",
+      "Build rapport and establish trust",
+      "Identify any immediate support needs"
+    ],
+    "risk_flags": [
+      "stigma_concern",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230560Z"
+  },
+  {
+    "case_id": "8980c069",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "anxious",
+    "context_summary": "The respondent submitted a formal complaint about the housing service received during a inspection. This structured conversation seeks to clarify facts and explore resolution options.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "low",
+    "communication_goals": [
+      "Identify desired resolution",
+      "Document the nature and impact of the complaint",
+      "Gather any supporting details"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "past_negative_experience"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230583Z"
+  },
+  {
+    "case_id": "c79eb358",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "Following a unexpected workplace event involving several team members, a review conversation is being conducted with a senior technician who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Clarify any actions taken at the time",
+      "Identify all persons present",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230608Z"
+  },
+  {
+    "case_id": "44953d5d",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "confused",
+    "context_summary": "The respondent is a team coordinator who submitted an internal report about a ambiguous situation occurring near the reception area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify all persons present",
+      "Understand the respondent's direct observations",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "hierarchy_pressure",
+      "blame_attribution"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230632Z"
+  },
+  {
+    "case_id": "309d37fd",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "The respondent is a team coordinator who submitted an internal report about a disputed situation occurring near the reception area. This conversation aims to gather a factual account.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Establish a clear timeline of events",
+      "Clarify any actions taken at the time",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230654Z"
+  },
+  {
+    "case_id": "f677e900",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "confused",
+    "context_summary": "A structured intake conversation is being conducted with an individual who has requested case management support. The respondent reports challenges with daily functioning as a primary concern.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Build rapport and establish trust",
+      "Identify any immediate support needs",
+      "Assess current level of functioning"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "trauma_history"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230678Z"
+  },
+  {
+    "case_id": "086413ec",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "Following a sensitive workplace event involving four team members, a review conversation is being conducted with a team coordinator who witnessed part of the incident.",
+    "latent_truth_state": {
+      "actual_sequence": "A procedural step was skipped due to time pressure.",
+      "key_fact": "The respondent observed the skip but did not report it at the time.",
+      "withheld_info": "The respondent is concerned about how this will be received."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify all persons present",
+      "Establish a clear timeline of events",
+      "Understand the respondent's direct observations"
+    ],
+    "risk_flags": [
+      "retaliation_fear",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230702Z"
+  },
+  {
+    "case_id": "47160372",
+    "scenario_type": "public_service_complaint",
+    "respondent_profile": "trauma_sensitive",
+    "context_summary": "A citizen has contacted the environmental office to report a documented experience with a recent application process. The conversation aims to document the complaint and understand the impact.",
+    "latent_truth_state": {
+      "actual_complaint": "The respondent was told incorrect information by a staff member.",
+      "impact": "The misinformation caused a two-week delay in processing.",
+      "desired_outcome": "An acknowledgement and corrected guidance."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Clarify what the respondent experienced",
+      "Identify desired resolution",
+      "Document the nature and impact of the complaint"
+    ],
+    "risk_flags": [
+      "emotional_distress",
+      "systemic_distrust"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "transparency",
+      "respect",
+      "non_leading"
+    ],
+    "created_at": "2026-03-08T18:03:17.230724Z"
+  },
+  {
+    "case_id": "a96d7184",
+    "scenario_type": "workplace_incident_review",
+    "respondent_profile": "anxious",
+    "context_summary": "A report has been filed regarding a documented incident in the storage department on Tuesday morning. The respondent was present and is described as a junior analyst.",
+    "latent_truth_state": {
+      "actual_sequence": "The incident occurred at approximately 14:30 and lasted around 20 minutes.",
+      "key_fact": "The respondent was present for the initial phase but left before escalation.",
+      "withheld_info": "The respondent is unsure whether to mention a colleague's role."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Understand the respondent's direct observations",
+      "Identify all persons present",
+      "Clarify any actions taken at the time"
+    ],
+    "risk_flags": [
+      "blame_attribution",
+      "hierarchy_pressure"
+    ],
+    "recommended_norms": [
+      "non_coercion",
+      "non_leading",
+      "transparency",
+      "procedural_fairness",
+      "neutrality"
+    ],
+    "created_at": "2026-03-08T18:03:17.230747Z"
+  },
+  {
+    "case_id": "659c8c84",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "fatigued",
+    "context_summary": "As part of a routine data handling review, a structured conversation is being held with a senior technician in the field unit. The aim is to verify understanding of relevant procedures.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Identify any deviations and the rationale behind them",
+      "Assess procedural knowledge",
+      "Verify the respondent's understanding of relevant procedures"
+    ],
+    "risk_flags": [
+      "self_incrimination_concern",
+      "procedural_misunderstanding"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230768Z"
+  },
+  {
+    "case_id": "fee58651",
+    "scenario_type": "clinical_intake",
+    "respondent_profile": "anxious",
+    "context_summary": "This is an initial information-gathering session with a new client. The respondent has indicated challenges with daily functioning and may require case management services. Sensitivity is required throughout.",
+    "latent_truth_state": {
+      "primary_concern": "Work-related stress compounded by personal circumstances.",
+      "secondary_concern": "Difficulty sleeping for several weeks.",
+      "willingness_to_disclose": "Moderate; respondent is testing trustworthiness."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Build rapport and establish trust",
+      "Identify any immediate support needs",
+      "Understand the presenting concern"
+    ],
+    "risk_flags": [
+      "disclosure_hesitancy",
+      "emotional_fragility"
+    ],
+    "recommended_norms": [
+      "empathy",
+      "non_coercion",
+      "transparency",
+      "emotional_sensitivity",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230793Z"
+  },
+  {
+    "case_id": "8b9de349",
+    "scenario_type": "witness_recall",
+    "respondent_profile": "anxious",
+    "context_summary": "Following a documented incident at administration, the respondent has been asked to provide a structured recall account. They were nearby when the event occurred and may have relevant observations.",
+    "latent_truth_state": {
+      "observed_sequence": "Respondent saw two people arguing before the incident.",
+      "key_observation": "One person left the scene quickly before others arrived.",
+      "confidence_level": "Moderate; respondent is uncertain about the exact timing."
+    },
+    "sensitivity_level": "medium",
+    "communication_goals": [
+      "Elicit a free, uncontaminated account",
+      "Clarify the sequence and timing of events",
+      "Identify what was directly observed versus inferred"
+    ],
+    "risk_flags": [
+      "trauma_proximity",
+      "confabulation_risk"
+    ],
+    "recommended_norms": [
+      "non_leading",
+      "non_coercion",
+      "neutrality",
+      "respect"
+    ],
+    "created_at": "2026-03-08T18:03:17.230816Z"
+  },
+  {
+    "case_id": "633cdb34",
+    "scenario_type": "compliance_interview",
+    "respondent_profile": "anxious",
+    "context_summary": "A safety audit has flagged a potential process deviation in the operations team. This conversation seeks to clarify the respondent's understanding and actions during the relevant period.",
+    "latent_truth_state": {
+      "process_followed": "Standard process was followed in most steps.",
+      "deviation": "One approval step was completed retrospectively.",
+      "respondent_rationale": "Operational urgency; respondent believed this was acceptable."
+    },
+    "sensitivity_level": "high",
+    "communication_goals": [
+      "Document explanations accurately",
+      "Assess procedural knowledge",
+      "Identify any deviations and the rationale behind them"
+    ],
+    "risk_flags": [
+      "procedural_misunderstanding",
+      "authority_anxiety"
+    ],
+    "recommended_norms": [
+      "procedural_fairness",
+      "neutrality",
+      "non_leading",
+      "transparency"
+    ],
+    "created_at": "2026-03-08T18:03:17.230838Z"
+  }
+]

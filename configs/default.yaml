@@ -1,0 +1,67 @@
+# =============================================================
+# Norm-Constrained Dialogue Framework — Default Configuration
+# =============================================================
+
+project:
+  name: "Norm-Constrained Dialogue Framework"
+  version: "0.1.0"
+  random_seed: 42
+  log_level: "INFO"
+
+# --- Data generation settings --------------------------------
+data:
+  n_scenarios: 100
+  output_dir: "data/synthetic"
+  scenario_types:
+    - "workplace_incident_review"
+    - "public_service_complaint"
+    - "clinical_intake"
+    - "compliance_interview"
+    - "witness_recall"
+  respondent_profiles:
+    - "cooperative"
+    - "anxious"
+    - "resistant"
+    - "confused"
+    - "fatigued"
+    - "trauma_sensitive"
+  sensitivity_levels:
+    - "low"
+    - "medium"
+    - "high"
+    - "critical"
+
+# --- Simulation settings -------------------------------------
+simulation:
+  max_turns: 12
+  min_turns: 4
+  trust_initial_range: [0.3, 0.8]
+  stress_initial_range: [0.1, 0.7]
+  temperature: 0.7
+
+# --- Agent settings ------------------------------------------
+agents:
+  strategies:
+    - "baseline"
+    - "rule_augmented"
+    - "critique_revise"
+    - "candidate_selector"
+    - "constrained_filter"
+  candidate_selector:
+    n_candidates: 5
+  critique_revise:
+    max_revisions: 2
+  llm_backend: null  # null → fallback template mode
+
+# --- Evaluation settings -------------------------------------
+evaluation:
+  metrics_config: "configs/metrics.yaml"
+  save_transcripts: true
+  output_dir: "results"
+
+# --- Experiment settings -------------------------------------
+experiments:
+  n_episodes_per_strategy: 20
+  parallel_workers: 1
+  save_all_transcripts: false
+  summary_output: "results/tables/experiment_summary.csv"

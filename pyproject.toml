@@ -1,0 +1,84 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "norm-dialogue-framework"
+version = "0.1.0"
+description = "A research simulator for norm-constrained dialogue and generative AI alignment evaluation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Research Team", email = "research@example.com" },
+]
+keywords = [
+  "dialogue systems",
+  "AI alignment",
+  "norm-constrained generation",
+  "behavioural simulation",
+  "conversational AI",
+  "ethics",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "pandas>=2.1",
+  "numpy>=1.26",
+  "pydantic>=2.5",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "plotly>=5.18",
+  "PyYAML>=6.0",
+  "streamlit>=1.30",
+  "rich>=13.7",
+  "python-dotenv>=1.0",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+llm = [
+  "openai>=1.10",
+  "sentence-transformers>=2.6",
+  "transformers>=4.37",
+  "torch>=2.2",
+]
+dev = [
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+  "black>=24.1",
+  "ruff>=0.2",
+  "mypy>=1.8",
+  "ipykernel>=6.29",
+  "nbformat>=5.9",
+]
+
+[project.urls]
+Repository = "https://github.com/example/norm-constrained-dialogue-framework"
+Documentation = "https://github.com/example/norm-constrained-dialogue-framework/blob/main/docs/architecture.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+strict = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

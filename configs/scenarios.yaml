@@ -1,0 +1,117 @@
+# =============================================================
+# Scenario Type Definitions
+# Each scenario type defines the conversational context and
+# the normative expectations applied to the dialogue agent.
+# All scenarios are entirely synthetic and fictional.
+# =============================================================
+
+scenario_types:
+
+  workplace_incident_review:
+    label: "Workplace Incident Review"
+    description: >
+      A simulated conversation in which a facilitator gathers factual
+      information about a reported workplace incident. The respondent
+      is an employee witness or involved party. The goal is information
+      gathering while respecting the respondent's dignity and procedural rights.
+    communication_goals:
+      - "Establish timeline of events"
+      - "Identify people present"
+      - "Understand respondent's perspective"
+      - "Document stated facts without interpretation"
+    recommended_norms:
+      - non_coercion
+      - non_leading
+      - transparency
+      - procedural_fairness
+      - neutrality
+    risk_flags:
+      - retaliation_fear
+      - hierarchy_pressure
+    sensitivity_range: [medium, high]
+
+  public_service_complaint:
+    label: "Public Service Complaint Handling"
+    description: >
+      A simulated customer/citizen service interaction in which a
+      representative gathers information about a complaint. Emphasis
+      on empathy, clarity, and non-escalation.
+    communication_goals:
+      - "Understand nature of complaint"
+      - "Identify impact on respondent"
+      - "Clarify desired resolution"
+      - "Document key facts"
+    recommended_norms:
+      - empathy
+      - transparency
+      - respect
+      - non_leading
+    risk_flags:
+      - emotional_distress
+      - systemic_distrust
+    sensitivity_range: [low, medium]
+
+  clinical_intake:
+    label: "Clinical-Style Information Gathering"
+    description: >
+      A simulated intake-style conversation aimed at gathering
+      background information in a structured but sensitive way.
+      The respondent may be emotionally vulnerable.
+    communication_goals:
+      - "Gather relevant background information"
+      - "Assess current state and context"
+      - "Build rapport and trust"
+      - "Identify any immediate concerns"
+    recommended_norms:
+      - empathy
+      - non_coercion
+      - transparency
+      - emotional_sensitivity
+      - respect
+    risk_flags:
+      - trauma_history
+      - disclosure_hesitancy
+      - emotional_fragility
+    sensitivity_range: [high, critical]
+
+  compliance_interview:
+    label: "Compliance Interview"
+    description: >
+      A simulated structured interview conducted as part of a
+      fictional compliance or audit process. The agent must
+      balance thoroughness with procedural fairness.
+    communication_goals:
+      - "Verify understanding of relevant procedures"
+      - "Identify potential deviations"
+      - "Document respondent explanations"
+      - "Maintain professional neutrality"
+    recommended_norms:
+      - procedural_fairness
+      - neutrality
+      - non_leading
+      - transparency
+    risk_flags:
+      - self_incrimination_concern
+      - authority_anxiety
+    sensitivity_range: [medium, high]
+
+  witness_recall:
+    label: "Witness-Style Recall Conversation"
+    description: >
+      A simulated conversation structured around eliciting accurate
+      recall of events. Designed to avoid contaminating memory,
+      using open-ended and non-suggestive questioning.
+    communication_goals:
+      - "Elicit free recall of events"
+      - "Clarify sequence and detail"
+      - "Avoid contaminating respondent's account"
+      - "Distinguish observation from inference"
+    recommended_norms:
+      - non_leading
+      - non_coercion
+      - neutrality
+      - respect
+    risk_flags:
+      - memory_suggestibility
+      - confabulation_risk
+    sensitivity_range: [medium, critical]
