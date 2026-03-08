@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------
+# GitHub Linguist overrides
+# Prevents generated/output files from skewing language stats.
+# Result: repository shows as Python (+ Jupyter Notebook).
+# ---------------------------------------------------------------
+
+# Generated HTML output — treat as vendored (excluded from stats)
+results/**/*.html   linguist-vendored=true
+app/**/*.html       linguist-vendored=true
+**/*.html           linguist-vendored=true
+
+# Jupyter notebooks — keep detectable but mark as Jupyter Notebook
+*.ipynb             linguist-detectable=true
+*.ipynb             linguist-language=Jupyter Notebook
+
+# YAML configs — not source code, exclude from stats
+configs/*.yaml      linguist-documentation=true
+
+# Markdown docs — exclude from stats
+*.md                linguist-documentation=true
+docs/*.md           linguist-documentation=true
