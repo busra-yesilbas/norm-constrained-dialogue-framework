@@ -31,22 +31,6 @@ The system simulates a dialogue agent attempting to gather information from a sy
 
 Aligning conversational AI to behavioural and ethical norms is an open research challenge. Most alignment work focuses on single-turn instruction-following or toxicity avoidance. Multi-turn, goal-directed conversations with explicit procedural norms — where a single ill-phrased question can erode trust, introduce bias, or contaminate a respondent's account — remain underexplored. NCDF provides a controlled, reproducible sandbox for studying this problem.
 
----
-
-## Research Contributions
-
-| Area | What the framework provides |
-|---|---|
-| **Generative AI alignment** | Side-by-side comparison of five alignment paradigms: rule augmentation, critique-and-revise, Best-of-N reward sampling, and hard constraint filtering |
-| **Conversational AI evaluation** | A 10-dimensional scoring system separating ethical compliance from information utility, with configurable weights |
-| **Behavioural simulation** | Dynamic respondent model with evolving trust, stress, and fatigue across six behavioural profiles |
-| **Norm operationalisation** | Seven abstract conversational norms translated into measurable, turn-level metrics |
-| **Reproducible research** | Config-driven, fully seeded pipeline; all outputs versioned and exportable |
-
-Conceptually informed by — though not affiliated with — research in Constitutional AI ([Bai et al., 2022](https://arxiv.org/abs/2212.08073)), RLHF ([Ouyang et al., 2022](https://arxiv.org/abs/2203.02155)), and eyewitness interviewing methodology ([Loftus, 1979](https://psycnet.apa.org/record/1980-06372-000)).
-
----
-
 ## System Architecture
 
 ```
