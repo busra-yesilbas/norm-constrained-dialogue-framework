@@ -25,12 +25,6 @@ The **Norm-Constrained Dialogue Framework (NCDF)** is a modular, reproducible re
 
 The system simulates a dialogue agent attempting to gather information from a synthetic respondent subject to behavioural constraints — while being evaluated at every turn on dimensions such as coercion risk, empathy, procedural fairness, and information yield. Five distinct alignment strategies are compared, ranging from an unconstrained baseline to a hard-constraint filter backed by a curated safe-response library.
 
-> **Scope statement.** This is a research simulator operating exclusively on synthetic, fictional data. It is not a production tool, clinical instrument, legal system, or operational deployment of any kind. All scenarios are machine-generated. No real individuals, institutions, or events are referenced.
-
-### Why this problem matters
-
-Aligning conversational AI to behavioural and ethical norms is an open research challenge. Most alignment work focuses on single-turn instruction-following or toxicity avoidance. Multi-turn, goal-directed conversations with explicit procedural norms — where a single ill-phrased question can erode trust, introduce bias, or contaminate a respondent's account — remain underexplored. NCDF provides a controlled, reproducible sandbox for studying this problem.
-
 ### Data flow
 
 ```
