@@ -38,8 +38,6 @@ SyntheticGenerator.generate()
                                → ExperimentResult  →  CSV · JSON · Figures
 ```
 
-See [`docs/architecture.md`](docs/architecture.md) for the full module-level diagram and extension guide.
-
 ---
 
 ## Quick Start
