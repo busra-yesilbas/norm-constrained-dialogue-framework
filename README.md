@@ -31,49 +31,6 @@ The system simulates a dialogue agent attempting to gather information from a sy
 
 Aligning conversational AI to behavioural and ethical norms is an open research challenge. Most alignment work focuses on single-turn instruction-following or toxicity avoidance. Multi-turn, goal-directed conversations with explicit procedural norms — where a single ill-phrased question can erode trust, introduce bias, or contaminate a respondent's account — remain underexplored. NCDF provides a controlled, reproducible sandbox for studying this problem.
 
-## System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 Norm-Constrained Dialogue Framework             │
-│                                                                 │
-│  configs/         YAML configuration (scenarios, metrics)       │
-│  data/synthetic/  Generated fictional scenario datasets         │
-│  results/         Transcripts · CSV tables · Figures            │
-└────────────────────────────┬────────────────────────────────────┘
-                             │
-        ┌────────────────────┼──────────────────────┐
-        ▼                    ▼                      ▼
- ┌─────────────┐     ┌──────────────┐     ┌─────────────────┐
- │    data/    │     │   agents/    │     │  evaluation/    │
- │─────────────│     │──────────────│     │─────────────────│
- │ Synthetic   │     │ BaseAgent    │     │ RuleChecker     │
- │ Scenario    │     │ Baseline     │     │ MetricsComputer │
- │ Generator   │     │ RuleAugment  │     │ RewardModel     │
- └──────┬──────┘     │ CritiqueRev  │     │ Evaluator       │
-        │            │ CandidateSel │     └────────┬────────┘
-        ▼            │ Constrained  │              │
- ┌─────────────┐     └──────┬───────┘              │
- │ simulation/ │            │                      │
- │─────────────│◄───────────┘                      │
- │ Respondent  │                                   │
- │ Simulator   │──── DialogueEpisode ─────────────►│
- │ Profiles    │                                   │
- │ Runner      │                          ┌────────▼────────┐
- └─────────────┘                          │ experiments/    │
-                                          │─────────────────│
-                                          │ Strategy        │
-                                          │ Comparison      │
-                                          └────────┬────────┘
-                              ┌───────────────────┬┴──────────────────┐
-                              ▼                   ▼                   ▼
-                    ┌──────────────┐   ┌─────────────────┐   ┌──────────────┐
-                    │visualization/│   │  app/           │   │  notebooks/  │
-                    │ Matplotlib   │   │  Streamlit      │   │  01 – 04     │
-                    │ Plotly       │   │  Dashboard      │   │  Analysis    │
-                    └──────────────┘   └─────────────────┘   └──────────────┘
-```
-
 ### Data flow
 
 ```
@@ -312,19 +269,6 @@ The dashboard loads saved experiment results from `results/` and provides six in
     └── sample_runs/          # Episode transcript JSON files
 ```
 
----
-
-## Notebooks
-
-| # | Notebook | What it covers |
-|:---:|---|---|
-| 01 | `01_data_generation.ipynb` | Generator configuration, schema inspection, distribution plots, dataset export |
-| 02 | `02_simulation_walkthrough.ipynb` | End-to-end episode trace, per-turn metric annotation, trust/stress trajectory plot |
-| 03 | `03_evaluation_and_error_analysis.ipynb` | Rule check deep-dive, reward model ranking, high-risk episode detection, metric correlations |
-| 04 | `04_alignment_strategy_comparison.ipynb` | Full experiment run, leaderboard, heatmap, radar chart, statistical summary |
-
----
-
 ## Configuration
 
 Everything is controlled through YAML — no magic constants in code.
@@ -389,99 +333,6 @@ Being explicit about limitations is part of good research practice.
 | **No external validation** | Metric scores have not been validated against human judgement or real-world conversational outcomes. |
 | **Template diversity** | Without an LLM backend, agent utterances are drawn from a fixed template pool, limiting linguistic naturalness. |
 
----
-
-## Ethical Scope
-
-### Intended uses
-
-- Academic research into conversational AI alignment
-- Methodology development for multi-turn evaluation frameworks
-- Educational demonstration of norm-constrained generation paradigms
-- Portfolio demonstration of ML engineering and research skills
-
-### Explicitly out of scope
-
-- Real or simulated legal, clinical, or security proceedings
-- Decision-support in any operational context
-- Any deployment involving real human respondents
-- Any use where outputs could be mistaken for factual case records
-
-### Data statement
-
-No personal data is collected, stored, or processed at any stage. All scenario content is machine-generated from template libraries. No real individuals, organisations, events, or institutions are represented.
-
----
-
-## Future Work
-
-**Short term**
-- [ ] Embedding-based semantic norm scoring via `sentence-transformers` — reduces false negatives from lexically novel violations
-- [ ] HuggingFace Transformers backend for local open-source LLMs (Llama-3, Mistral)
-- [ ] Bootstrap confidence intervals for all strategy comparison metrics
-
-**Medium term**
-- [ ] Human-annotation interface for metric validity — collect inter-rater reliability data
-- [ ] LLM-as-judge evaluation as a second scoring layer
-- [ ] Respondent memory model — track stated facts across turns, enable consistency checking
-
-**Longer term**
-- [ ] Public synthetic benchmark dataset for community use
-- [ ] GitHub Actions CI pipeline with notebook execution tests
-- [ ] Docker image for one-command reproducible environment
-- [ ] Factor analysis of the 10-dimensional metric space
-
-See [`docs/project_roadmap.md`](docs/project_roadmap.md) for the full phased roadmap.
-
----
-
-## Skills Demonstrated
-
-<details>
-<summary><strong>ML / AI Engineering</strong></summary>
-
-- Installable Python package with `pyproject.toml` and editable install
-- Pydantic v2 throughout — validated data models for every domain object
-- Strategy pattern for agent design — 5 strategies share one interface, zero duplication
-- Config-driven architecture — YAML + `.env` + Pydantic, no magic constants in code
-- Abstract base class hierarchy with proper separation of concerns
-- Comprehensive pytest suite: 61 tests, parametric fixtures, edge cases
-- Streamlit dashboard with 6 interactive sections
-- Matplotlib and Plotly visualisations — static export and interactive HTML
-- Type hints and docstrings on every public function and class
-
-</details>
-
-<details>
-<summary><strong>Generative AI & Alignment Research</strong></summary>
-
-- Implemented five distinct alignment paradigms: baseline, rule augmentation, critique-revise, Best-of-N reward sampling, and hard constraint filtering
-- Rule-based norm violation detection with pattern libraries and escalation tracking
-- Composite reward model combining ethical alignment and information utility signals
-- Offline reward optimisation workflow (Best-of-N) as a lightweight RLHF approximation
-- Norm operationalisation: seven abstract conversational norms translated to measurable turn-level metrics
-- Methodology documentation consistent with open science and reproducibility principles
-
-</details>
-
-<details>
-<summary><strong>Behavioural Modelling & Experimental Design</strong></summary>
-
-- Computational respondent model with six behavioural profiles and dynamic state evolution
-- Trust, stress, and fatigue modelled as continuous variables updating turn-by-turn
-- Scenario × profile × strategy factorial design, fully seeded for reproducibility
-- Per-turn and episode-level metric aggregation with configurable weight schemes
-- Error analysis pipeline: high-risk episode identification, failure rate computation, metric correlation matrix
-
-</details>
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE).
-
----
 
 <div align="center">
 
