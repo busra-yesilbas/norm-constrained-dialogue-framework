@@ -13,8 +13,6 @@
 
 <br>
 
-*Generates synthetic dialogue scenarios · Simulates behavioural respondents · Compares alignment strategies · Evaluates norm compliance and information utility*
-
 </div>
 
 ---
@@ -79,23 +77,6 @@ cp .env.example .env
 # Agents will use LLM generation with norm-aware prompts;
 # the project falls back to template mode if the API is unavailable.
 ```
-
----
-
-## Alignment Strategies
-
-Five strategies are implemented and compared. Each exposes the same interface — `generate_next_turn(state: DialogueState) -> str` — and can be hot-swapped without modifying the evaluation or simulation layer.
-
-| Strategy | Alignment mechanism | Analogue in the literature |
-|---|---|---|
-| **Baseline** | Direct template selection, no norm checking | Unconstrained LM generation (control) |
-| **Rule-Augmented** | Candidate pool scored against lexical norm rules; highest-scoring selected | Guided decoding / lexical constraints |
-| **Critique-Revise** | Draft generated → critiqued for violations → heuristically rewritten (up to N cycles) | Constitutional AI self-critique loop |
-| **Candidate Selector** | Best-of-N sampling; composite reward = `0.55 × ethical + 0.45 × utility` | RLHF rejection sampling / Best-of-N |
-| **Constrained Filter** | Hard-rejects any violation-containing response; falls back to a curated safe library | Constrained decoding / safety filters |
-
-> **Implementation note.** In fallback mode (no LLM), all strategies operate on a shared template pool and differ only in their selection logic and post-processing. With an LLM backend, each strategy injects strategy-specific system prompts. The evaluation pipeline is identical in both modes.
-
 ---
 
 ## Norm Metrics
@@ -167,18 +148,6 @@ logistics department. The respondent is a field representative who was present.
 Episode summary  →  composite: 0.688 | ethical: 0.802 | coercion risk: 0.000
 ```
 
-### Strategy leaderboard — 20 episodes × 5 strategies × 6 profiles
-
-| Rank | Strategy | Composite ↓ | Ethical | Utility | Coercion Risk | Final Trust |
-|:---:|---|:---:|:---:|:---:|:---:|:---:|
-| 1 | `constrained_filter` | **0.693** | **0.841** | 0.519 | **0.000** | 0.63 |
-| 2 | `candidate_selector` | 0.681 | 0.812 | **0.534** | 0.003 | 0.57 |
-| 3 | `critique_revise` | 0.672 | 0.798 | 0.530 | 0.008 | 0.58 |
-| 4 | `rule_augmented` | 0.661 | 0.781 | 0.527 | 0.012 | 0.59 |
-| 5 | `baseline` | 0.618 | 0.712 | 0.512 | 0.041 | 0.63 |
-
-> Results from the template fallback mode. With an LLM backend, absolute scores shift but relative strategy rankings remain directionally consistent.
-
 ---
 
 ## Respondent Profiles
@@ -216,50 +185,6 @@ The dashboard loads saved experiment results from `results/` and provides six in
 | **Error Analysis** | High-risk episode identification, failure rate by strategy, correlation matrix |
 
 ---
-
-## Project Structure
-
-```
-.
-├── configs/
-│   ├── default.yaml          # Simulation, agent, and experiment settings
-│   ├── scenarios.yaml        # Scenario type definitions and norm mappings
-│   └── metrics.yaml          # Metric weights, thresholds, and aggregate formulas
-├── data/
-│   └── synthetic/            # Generated scenario datasets (JSON + CSV)
-├── docs/
-│   ├── architecture.md       # Full component diagram and extension guide
-│   ├── methodology.md        # Modelling assumptions, limitations, references
-│   └── project_roadmap.md    # Versioned development roadmap
-├── notebooks/
-│   ├── 01_data_generation.ipynb
-│   ├── 02_simulation_walkthrough.ipynb
-│   ├── 03_evaluation_and_error_analysis.ipynb
-│   └── 04_alignment_strategy_comparison.ipynb
-├── app/
-│   └── dashboard.py          # Streamlit dashboard (6 sections)
-├── scripts/
-│   ├── generate_dataset.py
-│   ├── run_simulation.py
-│   ├── run_evaluation.py
-│   └── run_experiments.py
-├── src/
-│   └── norm_dialogue_framework/
-│       ├── config.py         # Pydantic-validated YAML loader
-│       ├── schemas.py        # Domain models: Scenario, Episode, Metrics
-│       ├── utils.py          # Logging, seeding, I/O helpers
-│       ├── agents/           # 5 alignment strategy implementations
-│       ├── data/             # Synthetic scenario generator
-│       ├── evaluation/       # RuleChecker, MetricsComputer, RewardModel, Evaluator
-│       ├── experiments/      # StrategyComparison pipeline
-│       ├── simulation/       # RespondentSimulator, profiles, DialogueRunner
-│       └── visualization/    # Matplotlib + Plotly chart functions
-├── tests/                    # 61-test pytest suite
-└── results/
-    ├── figures/              # PNG charts, interactive HTML
-    ├── tables/               # experiment_summary.csv, strategy_leaderboard.csv
-    └── sample_runs/          # Episode transcript JSON files
-```
 
 ## Configuration
 
@@ -312,25 +237,3 @@ The test suite covers:
 - **`test_evaluator.py`** — TurnMetrics computation, episode aggregation, reward ranking, batch evaluation
 
 ---
-
-## Limitations
-
-Being explicit about limitations is part of good research practice.
-
-| Limitation | Detail |
-|---|---|
-| **Heuristic evaluation** | Norm metrics rely on lexical pattern matching, not semantic understanding. A well-phrased coercive question may score low coercion risk. |
-| **Simplified behavioural model** | The respondent simulator does not model memory, narrative coherence, or theory of mind. Trust and stress dynamics are approximations. |
-| **Manually specified weights** | Composite score weights are design choices, not learned from data. Different weight choices will alter strategy rankings. |
-| **No external validation** | Metric scores have not been validated against human judgement or real-world conversational outcomes. |
-| **Template diversity** | Without an LLM backend, agent utterances are drawn from a fixed template pool, limiting linguistic naturalness. |
-
-
-<div align="center">
-
-**Research simulation only. All scenarios are synthetic and fictional.**
-**Not a production system. Not an operational tool. No real data.**
-
-[Architecture](docs/architecture.md) · [Methodology](docs/methodology.md) · [Roadmap](docs/project_roadmap.md)
-
-</div>
